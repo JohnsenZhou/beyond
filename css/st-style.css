@@ -1,0 +1,126 @@
+body{
+	background-color: #eee; 
+}
+
+.st-left{
+    margin-top: 50px;
+    /*width: 320px;*/
+    text-align: left;
+    /*border-right: 1px solid #9a8a8c;*/
+}
+/*.st-left ul{
+	width: 250px;
+}*/
+.st-left ul{
+	padding-left: 0;
+}
+.st-left ul li{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: left;
+	color:#383838; 
+	margin: 10px;
+	cursor: pointer;
+	
+}
+/* 标题按下 */
+.st-left li:hover{
+    color:#f83939;
+}
+
+
+/*.st-left hr{
+	margin-left: 0;
+}
+*/.st-right{
+ 
+   margin-top: 50px;
+
+} 
+
+.st-normal hr{
+	margin-bottom: 30px;
+}
+.st-right .Ms-Tang{
+	width: 100%;
+	border-radius: 20px;
+}
+.st-right .wang-img{
+	width: 240px;
+	margin: 0 auto;
+}
+.wang-img img{
+    width: 100%;
+}
+/*.wang-img p{
+	font-size: 13px;
+}*/
+.st-left .on{
+	color:#337ab7; 
+}
+/*.st-normal{
+	width: 680px;
+}*/
+.st-normal span{
+	display: block;
+	margin-top: 40px;
+}
+/*.st-normal h1,.st-normal p,.st-normal h3{
+	text-align: left;
+}*/
+.st-normal h3{
+	font-weight: bold;
+}
+.st-normal p{
+	text-indent: 2em;
+	line-height: 30px;
+	margin: 0;
+}
+.st-hide{
+	display: none;
+}
+.shi-zheli h3,.shi-zheli p{
+	text-align: center;
+	text-indent: 0;
+}
+
+
+/*.st-footer{
+    margin: 50px auto;
+    clear: both;
+}*/
+.st-link{
+	padding-top: 100px;
+    width: 300px;
+    margin: 0 auto;
+    transform: scale( 0.7,0.7);
+}
+.st-link span{
+	position: relative;
+	float: left;
+	background: url(../images/sprite.png);
+	width: 78px;
+	height: 64px;
+	display: inline;
+	background-position: 0 0;
+	cursor: pointer;
+}
+.st-link img{
+	position: absolute;
+    left: 0;
+    transform: translateX(-30%);
+    display: none;
+    bottom: 20px;
+}
+.st-link a{
+	float: right;
+	background: url(../images/sprite.png);
+	width: 180px;
+	height: 64px;
+	display: inline;
+	background-position: 0 -64px;
+}
+.st-footer p{
+	color:#a59f9f;
+}
